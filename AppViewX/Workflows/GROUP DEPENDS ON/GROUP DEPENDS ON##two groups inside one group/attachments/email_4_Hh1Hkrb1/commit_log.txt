@@ -1,0 +1,1105 @@
+﻿Modified:
+
+ WebContent/WEB-INF/views/aps/APSHelperScriptAdd.jsp
+ WebContent/WEB-INF/views/aps/APSHelperScriptInventory.jsp
+ WebContent/WEB-INF/views/aps/APSRequestInventory.jsp
+ WebContent/WEB-INF/views/aps/APSRequestLog.jsp
+ WebContent/WEB-INF/views/aps/APSRequestMain.jsp
+ WebContent/WEB-INF/views/aps/APSTemplateList.jsp
+ WebContent/WEB-INF/views/aps/APSTemplateMain.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderInventory.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderLog.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderReviewPage.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderpage.jsp
+ WebContent/grunt-tasks/dustjs.js
+ WebContent/grunt-tasks/requirejs.js
+ WebContent/locale/nls/en/genericCollection.js
+ WebContent/resources/generated/css/app-default.min.css
+ WebContent/resources/generated/css/app-green.min.css
+ WebContent/resources/generated/css/app-red.min.css
+ WebContent/resources/generated/css/app.css
+ WebContent/resources/generated/css/app.min.css
+ WebContent/resources/generated/css/master-style.css
+ WebContent/resources/less/modules/genericCollection.less
+ WebContent/resources/script/accounts/core/views/partials/accountsActionIcons.js
+ WebContent/resources/script/accounts/core/views/partials/accountsFormFieldsRender.js
+ WebContent/resources/script/accounts/core/views/role/roleAddForm.js
+ WebContent/resources/script/accounts/core/views/user/userPreferences.js
+ WebContent/resources/script/accounts/core/views/userGroup/userGroupAddForm.js
+ WebContent/resources/script/alert/core/views/alertActionIcons.js
+ WebContent/resources/script/alert/settings/views/asForm.js
+ WebContent/resources/script/app/controller/appBusinessLogic.js
+ WebContent/resources/script/app/views/actionIcons.js
+ WebContent/resources/script/app/views/header.js
+ WebContent/resources/script/app/views/templates/actionIcons.dust
+ WebContent/resources/script/appVision/infraMap/controller/infraMapBusinessLogic.js
+ WebContent/resources/script/certificate/holisticView/controller/certHVBusinessLogic.js
+ WebContent/resources/script/certificate/views/certActionIcons.js
+ WebContent/resources/script/certificate/views/certBreadcrumbs.js
+ WebContent/resources/script/certificate/views/certForm.js
+ WebContent/resources/script/controlCenter/gridView/adc/views/gridViewLanding.js
+ WebContent/resources/script/controlCenter/topology/views/topologyLanding.js
+ WebContent/resources/script/controlCenter/views/controlCenterHomeDust.js
+ WebContent/resources/script/core/plugins/ace.js
+ WebContent/resources/script/dashboard/views/widgets/widgetHeader.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionBusinessLogic.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomEvents.js
+ WebContent/resources/script/genericCollection/service/genericCollectionDelegate.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionUtil.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/genericCollection/views/genericCollectionAdd.js
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActionIcons.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionAdd.dust
+ WebContent/resources/script/modules/aps/request/controller/apsRequestBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/views/apsRequest.js
+ WebContent/resources/script/modules/aps/request/views/apsRequestDomElements.js
+ WebContent/resources/script/modules/aps/request/views/apsRequestLog.js
+ WebContent/resources/script/modules/aps/views/apsRequestMain.js ? WebContent/resources/script/modules/aps/request/views/apsRequestMain.js
+ WebContent/resources/script/modules/aps/views/apsRequestTemplateForm.js ? WebContent/resources/script/modules/aps/request/views/apsRequestTemplateForm.js
+ WebContent/resources/script/modules/aps/request/views/apsWorkorderInventory.js
+ WebContent/resources/script/modules/aps/views/apsWorkorderLog.js ? WebContent/resources/script/modules/aps/request/views/apsWorkorderLog.js
+ WebContent/resources/script/modules/aps/views/apsWorkorderPage.js ? WebContent/resources/script/modules/aps/request/views/apsWorkorderPage.js
+ WebContent/resources/script/modules/aps/views/apsWorkorderReviewPage.js ? WebContent/resources/script/modules/aps/request/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/modules/aps/views/customFilter.js ? WebContent/resources/script/modules/aps/request/views/customFilter.js
+ WebContent/resources/script/modules/aps/views/filterOptions.js ? WebContent/resources/script/modules/aps/request/views/filterOptions.js
+ WebContent/resources/script/modules/aps/views/templates/apsRequest.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsRequest.dust
+ WebContent/resources/script/modules/aps/views/templates/apsRequestDomElements.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsRequestDomElements.dust
+ WebContent/resources/script/modules/aps/views/templates/apsRequestLog.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsRequestLog.dust
+ WebContent/resources/script/modules/aps/views/templates/apsRequestMain.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsRequestMain.dust
+ WebContent/resources/script/modules/aps/views/templates/apsRequestTemplateForm.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsRequestTemplateForm.dust
+ WebContent/resources/script/modules/aps/views/templates/apsWorkorderInventory.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderInventory.dust
+ WebContent/resources/script/modules/aps/views/templates/apsWorkorderLog.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderLog.dust
+ WebContent/resources/script/modules/aps/views/templates/apsWorkorderPage.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderPage.dust
+ WebContent/resources/script/modules/aps/views/templates/apsWorkorderReviewPage.dust ? WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/modules/aps/views/templates/customFilter.dust ? WebContent/resources/script/modules/aps/request/views/templates/customFilter.dust
+ WebContent/resources/script/modules/aps/views/templates/filterOptions.dust ? WebContent/resources/script/modules/aps/request/views/templates/filterOptions.dust
+ WebContent/resources/script/modules/aps/template/controller/apsInventoryBusinessLogic.js
+ WebContent/resources/script/modules/aps/template/views/apsActionIcons.js
+ WebContent/resources/script/modules/aps/views/apsAssociateErrorLogs.js ? WebContent/resources/script/modules/aps/template/views/apsAssociateErrorLogs.js
+ WebContent/resources/script/modules/aps/views/apsFormbuilder.js ? WebContent/resources/script/modules/aps/template/views/apsFormbuilder.js
+ WebContent/resources/script/modules/aps/views/apsHelperScriptAdd.js ? WebContent/resources/script/modules/aps/template/views/apsHelperScriptAdd.js
+ WebContent/resources/script/modules/aps/template/views/apsHelperScriptInventory.js
+ WebContent/resources/script/modules/aps/views/apsInformationTabContent.js ? WebContent/resources/script/modules/aps/template/views/apsInformationTabContent.js
+ WebContent/resources/script/modules/aps/views/apsRegexLibrary.js ? WebContent/resources/script/modules/aps/template/views/apsRegexLibrary.js
+ WebContent/resources/script/modules/aps/template/views/apsTemplate.js
+ WebContent/resources/script/modules/aps/views/apsTemplateImport.js ? WebContent/resources/script/modules/aps/template/views/apsTemplateImport.js
+ WebContent/resources/script/modules/aps/template/views/apsTemplateMain.js
+ WebContent/resources/script/modules/aps/views/associatedScriptTabContent.js ? WebContent/resources/script/modules/aps/template/views/associatedScriptTabContent.js
+ WebContent/resources/script/modules/aps/views/createTemplateField.js ? WebContent/resources/script/modules/aps/template/views/createTemplateField.js
+ WebContent/resources/script/modules/aps/views/masterScriptTabContent.js ? WebContent/resources/script/modules/aps/template/views/masterScriptTabContent.js
+ WebContent/resources/script/modules/aps/views/previewOutputForMasterScript.js ? WebContent/resources/script/modules/aps/template/views/previewOutputForMasterScript.js
+ WebContent/resources/script/modules/aps/views/settingsTabContent.js ? WebContent/resources/script/modules/aps/template/views/settingsTabContent.js
+ WebContent/resources/script/modules/aps/views/settingsTabEmailConfigContent.js ? WebContent/resources/script/modules/aps/template/views/settingsTabEmailConfigContent.js
+ WebContent/resources/script/modules/aps/views/settingsTabRequestRolesContent.js ? WebContent/resources/script/modules/aps/template/views/settingsTabRequestRolesContent.js
+ WebContent/resources/script/modules/aps/template/views/templates/apsActionIcons.dust
+ WebContent/resources/script/modules/aps/views/templates/apsAssociateErrorLogs.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsAssociateErrorLogs.dust
+ WebContent/resources/script/modules/aps/views/templates/apsFormbuilder.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsFormbuilder.dust
+ WebContent/resources/script/modules/aps/views/templates/apsHelperScriptAdd.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsHelperScriptAdd.dust
+ WebContent/resources/script/modules/aps/views/templates/apsHelperScriptInventory.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsHelperScriptInventory.dust
+ WebContent/resources/script/modules/aps/views/templates/apsInformationTabContent.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsInformationTabContent.dust
+ WebContent/resources/script/modules/aps/views/templates/apsRegexLibrary.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsRegexLibrary.dust
+ WebContent/resources/script/modules/aps/views/templates/apsTemplate.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsTemplate.dust
+ WebContent/resources/script/modules/aps/views/templates/apsTemplateImport.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsTemplateImport.dust
+ WebContent/resources/script/modules/aps/views/templates/apsTemplateMain.dust ? WebContent/resources/script/modules/aps/template/views/templates/apsTemplateMain.dust
+ WebContent/resources/script/modules/aps/views/templates/associatedScriptTabContent.dust ? WebContent/resources/script/modules/aps/template/views/templates/associatedScriptTabContent.dust
+ WebContent/resources/script/modules/aps/views/templates/createTemplateField.dust ? WebContent/resources/script/modules/aps/template/views/templates/createTemplateField.dust
+ WebContent/resources/script/modules/aps/views/templates/masterScriptTabContent.dust ? WebContent/resources/script/modules/aps/template/views/templates/masterScriptTabContent.dust
+ WebContent/resources/script/modules/aps/views/templates/previewOutputForMasterScript.dust ? WebContent/resources/script/modules/aps/template/views/templates/previewOutputForMasterScript.dust
+ WebContent/resources/script/modules/aps/views/templates/settingsTabContent.dust ? WebContent/resources/script/modules/aps/template/views/templates/settingsTabContent.dust
+ WebContent/resources/script/modules/aps/views/templates/settingsTabEmailConfigContent.dust ? WebContent/resources/script/modules/aps/template/views/templates/settingsTabEmailConfigContent.dust
+ WebContent/resources/script/modules/aps/views/templates/settingsTabRequestRolesContent.dust ? WebContent/resources/script/modules/aps/template/views/templates/settingsTabRequestRolesContent.dust
+ WebContent/resources/script/modules/aps/views/apsHelperScriptInventory.js
+ WebContent/resources/script/modules/aps/views/apsRequest.js
+ WebContent/resources/script/modules/aps/views/apsRequestDomElements.js
+ WebContent/resources/script/modules/aps/views/apsRequestLog.js
+ WebContent/resources/script/modules/aps/views/apsTemplate.js
+ WebContent/resources/script/modules/aps/views/apsTemplateMain.js
+ WebContent/resources/script/modules/aps/views/apsWorkorderInventory.js
+ WebContent/resources/script/modules/insight/insightDb/views/insightActionIcons.js
+ WebContent/resources/script/modules/insight/insightWidget/views/insightWidgetStdTable.js
+ WebContent/resources/script/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/ssh/keyHolistic/keyHolisticBusinessLogic.js
+ src/main/java/com/payoda/appviewx/web/adapter/IGeneralCollectionAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/GeneralCollectionAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/AppSettingsController.java
+ src/main/java/com/payoda/appviewx/web/controller/GeneralCollectionController.java
+ src/main/java/com/payoda/appviewx/web/controller/LoginController.java
+ src/main/java/com/payoda/appviewx/web/util/GeneralCollectionUtil.java
+ src/main/java/com/payoda/appviewx/web/validator/GeneralCollectionValidator.java
+
+
+
+12.1 changes:
+
+
+ WebContent/WEB-INF/views/aps/APSHelperScriptAdd.jsp
+ WebContent/WEB-INF/views/aps/APSHelperScriptInventory.jsp
+ WebContent/WEB-INF/views/aps/APSRequestInventory.jsp
+ WebContent/WEB-INF/views/aps/APSRequestLog.jsp
+ WebContent/WEB-INF/views/aps/APSRequestMain.jsp
+ WebContent/WEB-INF/views/aps/APSTemplateList.jsp
+ WebContent/WEB-INF/views/aps/APSTemplateMain.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderInventory.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderLog.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderReviewPage.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderpage.jsp
+ WebContent/grunt-tasks/dustjs.js
+ WebContent/grunt-tasks/requirejs.js
+ WebContent/locale/nls/en/appProvisioning.js
+ WebContent/locale/nls/en/genericCollection.js
+ WebContent/resources/generated/css/app-default.min.css
+ WebContent/resources/generated/css/app-green.min.css
+ WebContent/resources/generated/css/app-red.min.css
+ WebContent/resources/generated/css/app.css
+ WebContent/resources/generated/css/app.min.css
+ WebContent/resources/generated/css/master-style.css
+ WebContent/resources/less/modules/genericCollection.less
+ WebContent/resources/script/accounts/core/views/partials/accountsActionIcons.js
+ WebContent/resources/script/accounts/core/views/partials/accountsFormFieldsRender.js
+ WebContent/resources/script/accounts/core/views/role/roleAddForm.js
+ WebContent/resources/script/accounts/core/views/user/userPreferences.js
+ WebContent/resources/script/accounts/core/views/userGroup/userGroupAddForm.js
+ WebContent/resources/script/alert/core/views/alertActionIcons.js
+ WebContent/resources/script/alert/settings/views/asForm.js
+ WebContent/resources/script/app/bootstrapConfig.js
+ WebContent/resources/script/app/controller/appBusinessLogic.js
+ WebContent/resources/script/app/views/actionIcons.js
+ WebContent/resources/script/app/views/header.js
+ WebContent/resources/script/app/views/templates/actionIcons.dust
+ WebContent/resources/script/appVision/infraMap/controller/infraMapBusinessLogic.js
+ WebContent/resources/script/aps/views/apsHelperScriptInventory.js
+ WebContent/resources/script/aps/views/apsRequest.js
+ WebContent/resources/script/aps/views/apsRequestDomElements.js
+ WebContent/resources/script/aps/views/apsRequestLog.js
+ WebContent/resources/script/aps/views/apsRequestMain.js
+ WebContent/resources/script/aps/views/apsTemplate.js
+ WebContent/resources/script/aps/views/apsTemplateMain.js
+ WebContent/resources/script/aps/views/apsWorkorderInventory.js
+ WebContent/resources/script/aps/views/settingsTabEmailConfigContent.js
+ WebContent/resources/script/aps/views/templates/apsTemplate.dust
+ WebContent/resources/script/certificate/holisticView/controller/certHVBusinessLogic.js
+ WebContent/resources/script/certificate/views/certActionIcons.js
+ WebContent/resources/script/certificate/views/certBreadcrumbs.js
+ WebContent/resources/script/certificate/views/certForm.js
+ WebContent/resources/script/controlCenter/gridView/adc/views/gridViewLanding.js
+ WebContent/resources/script/controlCenter/gridView/adc/views/templates/gridViewLanding.dust
+ WebContent/resources/script/controlCenter/topology/views/topologyLanding.js
+ WebContent/resources/script/controlCenter/views/controlCenterHomeDust.js
+ WebContent/resources/script/core/directives/ValidationComponent.js
+ WebContent/resources/script/core/directives/fileUpload.js
+ WebContent/resources/script/core/plugins/ace.js
+ WebContent/resources/script/dashboard/views/widgets/widgetHeader.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionBusinessLogic.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomEvents.js
+ WebContent/resources/script/genericCollection/genericCollection.js
+ WebContent/resources/script/genericCollection/service/genericCollectionDelegate.js
+ WebContent/resources/script/genericCollection/service/genericCollectionServices.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionUtil.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/genericCollection/views/genericCollectionAdd.js
+ WebContent/resources/script/genericCollection/views/genericCollectionImport.js
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActionIcons.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionAdd.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionImport.dust
+ WebContent/resources/script/aps/core/apsConstants.js → WebContent/resources/script/modules/aps/core/apsConstants.js
+ WebContent/resources/script/modules/aps/core/apsCoreConfig.js
+ WebContent/resources/script/aps/core/apsServices.js → WebContent/resources/script/modules/aps/core/apsServices.js
+ WebContent/resources/script/aps/core/apsUtil.js → WebContent/resources/script/modules/aps/core/apsUtil.js
+ WebContent/resources/script/aps/core/controller/apsRequestAcl.js → WebContent/resources/script/modules/aps/core/controller/apsRequestAcl.js
+ WebContent/resources/script/aps/core/controller/apsTemplateacl.js → WebContent/resources/script/modules/aps/core/controller/apsTemplateacl.js
+ WebContent/resources/script/aps/core/service/apsRequestDelegate.js → WebContent/resources/script/modules/aps/core/service/apsRequestDelegate.js
+ WebContent/resources/script/aps/core/service/apsTemplateDelegate.js → WebContent/resources/script/modules/aps/core/service/apsTemplateDelegate.js
+ WebContent/resources/script/aps/request/apsRequestInventory.js → WebContent/resources/script/modules/aps/request/apsRequestInventory.js
+ WebContent/resources/script/aps/request/apsRequestLog.js → WebContent/resources/script/modules/aps/request/apsRequestLog.js
+ WebContent/resources/script/aps/request/apsRequestMain.js → WebContent/resources/script/modules/aps/request/apsRequestMain.js
+ WebContent/resources/script/aps/request/apsRequestRouteProvider.js → WebContent/resources/script/modules/aps/request/apsRequestRouteProvider.js
+ WebContent/resources/script/aps/request/apsWorkorderInventory.js → WebContent/resources/script/modules/aps/request/apsWorkorderInventory.js
+ WebContent/resources/script/aps/request/apsWorkorderLog.js → WebContent/resources/script/modules/aps/request/apsWorkorderLog.js
+ WebContent/resources/script/aps/request/apsWorkorderReviewPage.js → WebContent/resources/script/modules/aps/request/apsWorkorderReviewPage.js
+ WebContent/resources/script/aps/request/apsWorkorderpage.js → WebContent/resources/script/modules/aps/request/apsWorkorderpage.js
+ WebContent/resources/script/aps/request/controller/apsRequestBusinessLogic.js → WebContent/resources/script/modules/aps/request/controller/apsRequestBusinessLogic.js
+ WebContent/resources/script/aps/request/controller/apsRequestDomEvents.js → WebContent/resources/script/modules/aps/request/controller/apsRequestDomEvents.js
+ WebContent/resources/script/aps/request/controller/apsRequestInventoryBusinessLogic.js → WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/aps/request/controller/apsRequestInventoryDomEvents.js → WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryDomEvents.js
+ WebContent/resources/script/aps/request/controller/apsWorkOrderBusinessLogic.js → WebContent/resources/script/modules/aps/request/controller/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/aps/request/controller/apsWorkorderEvents.js → WebContent/resources/script/modules/aps/request/controller/apsWorkorderEvents.js
+ WebContent/resources/script/aps/request/tabularWorker.js → WebContent/resources/script/modules/aps/request/tabularWorker.js
+ WebContent/resources/script/modules/aps/request/views/apsRequest.js
+ WebContent/resources/script/modules/aps/request/views/apsRequestDomElements.js
+ WebContent/resources/script/modules/aps/request/views/apsRequestLog.js
+ WebContent/resources/script/modules/aps/request/views/apsRequestMain.js
+ WebContent/resources/script/aps/views/apsRequestTemplateForm.js → WebContent/resources/script/modules/aps/request/views/apsRequestTemplateForm.js
+ WebContent/resources/script/modules/aps/request/views/apsWorkorderInventory.js
+ WebContent/resources/script/aps/views/apsWorkorderLog.js → WebContent/resources/script/modules/aps/request/views/apsWorkorderLog.js
+ WebContent/resources/script/aps/views/apsWorkorderPage.js → WebContent/resources/script/modules/aps/request/views/apsWorkorderPage.js
+ WebContent/resources/script/aps/views/apsWorkorderReviewPage.js → WebContent/resources/script/modules/aps/request/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/aps/views/customFilter.js → WebContent/resources/script/modules/aps/request/views/customFilter.js
+ WebContent/resources/script/aps/views/filterOptions.js → WebContent/resources/script/modules/aps/request/views/filterOptions.js
+ WebContent/resources/script/aps/views/templates/apsRequest.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequest.dust
+ WebContent/resources/script/aps/views/templates/apsRequestDomElements.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequestDomElements.dust
+ WebContent/resources/script/aps/views/templates/apsRequestLog.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequestLog.dust
+ WebContent/resources/script/aps/views/templates/apsRequestMain.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequestMain.dust
+ WebContent/resources/script/aps/views/templates/apsRequestTemplateForm.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequestTemplateForm.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderInventory.dust → WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderInventory.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderLog.dust → WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderLog.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderPage.dust → WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderPage.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderReviewPage.dust → WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/aps/views/templates/customFilter.dust → WebContent/resources/script/modules/aps/request/views/templates/customFilter.dust
+ WebContent/resources/script/aps/views/templates/filterOptions.dust → WebContent/resources/script/modules/aps/request/views/templates/filterOptions.dust
+ WebContent/resources/script/aps/template/apsHelperScriptAdd.js → WebContent/resources/script/modules/aps/template/apsHelperScriptAdd.js
+ WebContent/resources/script/aps/template/apsHelperScriptInventory.js → WebContent/resources/script/modules/aps/template/apsHelperScriptInventory.js
+ WebContent/resources/script/aps/template/apsTemplateList.js → WebContent/resources/script/modules/aps/template/apsTemplateList.js
+ WebContent/resources/script/aps/template/apsTemplateMain.js → WebContent/resources/script/modules/aps/template/apsTemplateMain.js
+ WebContent/resources/script/aps/template/controller/apsBusinessLogic.js → WebContent/resources/script/modules/aps/template/controller/apsBusinessLogic.js
+ WebContent/resources/script/aps/template/controller/apsDomEvents.js → WebContent/resources/script/modules/aps/template/controller/apsDomEvents.js
+ WebContent/resources/script/aps/template/controller/apsDomManipulation.js → WebContent/resources/script/modules/aps/template/controller/apsDomManipulation.js
+ WebContent/resources/script/aps/template/controller/apsInventoryBusinessLogic.js → WebContent/resources/script/modules/aps/template/controller/apsInventoryBusinessLogic.js
+ WebContent/resources/script/aps/template/controller/apsInventoryDomEvents.js → WebContent/resources/script/modules/aps/template/controller/apsInventoryDomEvents.js
+ WebContent/resources/script/aps/template/controller/apsTemplateInventoryBusinessLogic.js → WebContent/resources/script/modules/aps/template/controller/apsTemplateInventoryBusinessLogic.js
+ WebContent/resources/script/aps/template/controller/apsTemplateInventoryDomEvents.js → WebContent/resources/script/modules/aps/template/controller/apsTemplateInventoryDomEvents.js
+ WebContent/resources/script/aps/template/controller/apsTemplateRouteProvider.js → WebContent/resources/script/modules/aps/template/controller/apsTemplateRouteProvider.js
+ WebContent/resources/script/aps/template/formBuilderWorker.js → WebContent/resources/script/modules/aps/template/formBuilderWorker.js
+ WebContent/resources/script/aps/template/objectPushPop.js → WebContent/resources/script/modules/aps/template/objectPushPop.js
+ WebContent/resources/script/modules/aps/template/views/apsActionIcons.js
+ WebContent/resources/script/aps/views/apsAssociateErrorLogs.js → WebContent/resources/script/modules/aps/template/views/apsAssociateErrorLogs.js
+ WebContent/resources/script/aps/views/apsFormbuilder.js → WebContent/resources/script/modules/aps/template/views/apsFormbuilder.js
+ WebContent/resources/script/aps/views/apsHelperScriptAdd.js → WebContent/resources/script/modules/aps/template/views/apsHelperScriptAdd.js
+ WebContent/resources/script/modules/aps/template/views/apsHelperScriptInventory.js
+ WebContent/resources/script/aps/views/apsInformationTabContent.js → WebContent/resources/script/modules/aps/template/views/apsInformationTabContent.js
+ WebContent/resources/script/aps/views/apsRegexLibrary.js → WebContent/resources/script/modules/aps/template/views/apsRegexLibrary.js
+ WebContent/resources/script/modules/aps/template/views/apsTemplate.js
+ WebContent/resources/script/aps/views/apsTemplateImport.js → WebContent/resources/script/modules/aps/template/views/apsTemplateImport.js
+ WebContent/resources/script/modules/aps/template/views/apsTemplateMain.js
+ WebContent/resources/script/aps/views/associatedScriptTabContent.js → WebContent/resources/script/modules/aps/template/views/associatedScriptTabContent.js
+ WebContent/resources/script/aps/views/createTemplateField.js → WebContent/resources/script/modules/aps/template/views/createTemplateField.js
+ WebContent/resources/script/aps/views/masterScriptTabContent.js → WebContent/resources/script/modules/aps/template/views/masterScriptTabContent.js
+ WebContent/resources/script/aps/views/previewOutputForMasterScript.js → WebContent/resources/script/modules/aps/template/views/previewOutputForMasterScript.js
+ WebContent/resources/script/aps/views/settingsTabContent.js → WebContent/resources/script/modules/aps/template/views/settingsTabContent.js
+ WebContent/resources/script/modules/aps/template/views/settingsTabEmailConfigContent.js
+ WebContent/resources/script/aps/views/settingsTabRequestRolesContent.js → WebContent/resources/script/modules/aps/template/views/settingsTabRequestRolesContent.js
+ WebContent/resources/script/modules/aps/template/views/templates/apsActionIcons.dust
+ WebContent/resources/script/aps/views/templates/apsAssociateErrorLogs.dust → WebContent/resources/script/modules/aps/template/views/templates/apsAssociateErrorLogs.dust
+ WebContent/resources/script/aps/views/templates/apsFormbuilder.dust → WebContent/resources/script/modules/aps/template/views/templates/apsFormbuilder.dust
+ WebContent/resources/script/aps/views/templates/apsHelperScriptAdd.dust → WebContent/resources/script/modules/aps/template/views/templates/apsHelperScriptAdd.dust
+ WebContent/resources/script/aps/views/templates/apsHelperScriptInventory.dust → WebContent/resources/script/modules/aps/template/views/templates/apsHelperScriptInventory.dust
+ WebContent/resources/script/aps/views/templates/apsInformationTabContent.dust → WebContent/resources/script/modules/aps/template/views/templates/apsInformationTabContent.dust
+ WebContent/resources/script/aps/views/templates/apsRegexLibrary.dust → WebContent/resources/script/modules/aps/template/views/templates/apsRegexLibrary.dust
+ WebContent/resources/script/modules/aps/template/views/templates/apsTemplate.dust
+ WebContent/resources/script/aps/views/templates/apsTemplateImport.dust → WebContent/resources/script/modules/aps/template/views/templates/apsTemplateImport.dust
+ WebContent/resources/script/aps/views/templates/apsTemplateMain.dust → WebContent/resources/script/modules/aps/template/views/templates/apsTemplateMain.dust
+ WebContent/resources/script/aps/views/templates/associatedScriptTabContent.dust → WebContent/resources/script/modules/aps/template/views/templates/associatedScriptTabContent.dust
+ WebContent/resources/script/aps/views/templates/createTemplateField.dust → WebContent/resources/script/modules/aps/template/views/templates/createTemplateField.dust
+ WebContent/resources/script/aps/views/templates/masterScriptTabContent.dust → WebContent/resources/script/modules/aps/template/views/templates/masterScriptTabContent.dust
+ WebContent/resources/script/aps/views/templates/previewOutputForMasterScript.dust → WebContent/resources/script/modules/aps/template/views/templates/previewOutputForMasterScript.dust
+ WebContent/resources/script/aps/views/templates/settingsTabContent.dust → WebContent/resources/script/modules/aps/template/views/templates/settingsTabContent.dust
+ WebContent/resources/script/aps/views/templates/settingsTabEmailConfigContent.dust → WebContent/resources/script/modules/aps/template/views/templates/settingsTabEmailConfigContent.dust
+ WebContent/resources/script/aps/views/templates/settingsTabRequestRolesContent.dust → WebContent/resources/script/modules/aps/template/views/templates/settingsTabRequestRolesContent.dust
+ WebContent/resources/script/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/ssh/keyHolistic/keyHolisticBusinessLogic.js
+ src/main/java/com/payoda/appviewx/core/constants/AppProvisioningConstants.java
+ src/main/java/com/payoda/appviewx/core/constants/ObjectConstants.java
+ src/main/java/com/payoda/appviewx/web/adapter/IGeneralCollectionAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/GeneralCollectionAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/APSAccessControlListController.java
+ src/main/java/com/payoda/appviewx/web/controller/AppSettingsController.java
+ src/main/java/com/payoda/appviewx/web/controller/GeneralCollectionController.java
+ src/main/java/com/payoda/appviewx/web/util/GeneralCollectionUtil.java
+ src/main/java/com/payoda/appviewx/web/validator/GeneralCollectionValidator.java
+ src/main/java/com/payoda/commons/core/constants/AppErrorCode.java
+
+
+  WebContent/WEB-INF/views/aps/APSHelperScriptAdd.jsp
+ WebContent/WEB-INF/views/aps/APSHelperScriptInventory.jsp
+ WebContent/WEB-INF/views/aps/APSRequestInventory.jsp
+ WebContent/WEB-INF/views/aps/APSRequestLog.jsp
+ WebContent/WEB-INF/views/aps/APSRequestMain.jsp
+ WebContent/WEB-INF/views/aps/APSTemplateList.jsp
+ WebContent/WEB-INF/views/aps/APSTemplateMain.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderInventory.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderLog.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderReviewPage.jsp
+ WebContent/WEB-INF/views/aps/APSWorkorderpage.jsp
+ WebContent/grunt-tasks/dustjs.js
+ WebContent/grunt-tasks/requirejs.js
+ WebContent/locale/nls/en/appProvisioning.js
+ WebContent/locale/nls/en/genericCollection.js
+ WebContent/resources/less/modules/genericCollection.less
+ WebContent/resources/script/accounts/core/views/partials/accountsActionIcons.js
+ WebContent/resources/script/accounts/core/views/partials/accountsFormFieldsRender.js
+ WebContent/resources/script/accounts/core/views/role/roleAddForm.js
+ WebContent/resources/script/accounts/core/views/user/userPreferences.js
+ WebContent/resources/script/accounts/core/views/userGroup/userGroupAddForm.js
+ WebContent/resources/script/alert/core/views/alertActionIcons.js
+ WebContent/resources/script/alert/settings/views/asForm.js
+ WebContent/resources/script/app/bootstrapConfig.js
+ WebContent/resources/script/app/controller/appBusinessLogic.js
+ WebContent/resources/script/app/views/actionIcons.js
+ WebContent/resources/script/app/views/header.js
+ WebContent/resources/script/app/views/templates/actionIcons.dust
+ WebContent/resources/script/appVision/infraMap/controller/infraMapBusinessLogic.js
+ WebContent/resources/script/aps/views/apsHelperScriptInventory.js
+ WebContent/resources/script/aps/views/apsRegexLibrary.js
+ WebContent/resources/script/aps/views/apsRequest.js
+ WebContent/resources/script/aps/views/apsRequestDomElements.js
+ WebContent/resources/script/aps/views/apsRequestLog.js
+ WebContent/resources/script/aps/views/apsRequestMain.js
+ WebContent/resources/script/aps/views/apsTemplate.js
+ WebContent/resources/script/aps/views/apsTemplateMain.js
+ WebContent/resources/script/aps/views/apsWorkorderInventory.js
+ WebContent/resources/script/aps/views/associatedScriptTabContent.js
+ WebContent/resources/script/aps/views/settingsTabEmailConfigContent.js
+ WebContent/resources/script/aps/views/templates/apsTemplate.dust
+ WebContent/resources/script/certificate/holisticView/controller/certHVBusinessLogic.js
+ WebContent/resources/script/certificate/views/certActionIcons.js
+ WebContent/resources/script/certificate/views/certBreadcrumbs.js
+ WebContent/resources/script/certificate/views/certForm.js
+ WebContent/resources/script/controlCenter/gridView/adc/views/gridViewLanding.js
+ WebContent/resources/script/controlCenter/gridView/adc/views/templates/gridViewLanding.dust
+ WebContent/resources/script/controlCenter/topology/views/topologyLanding.js
+ WebContent/resources/script/controlCenter/views/controlCenterHomeDust.js
+ WebContent/resources/script/core/directives/ValidationComponent.js
+ WebContent/resources/script/core/directives/fileUpload.js
+ WebContent/resources/script/core/plugins/ace.js
+ WebContent/resources/script/dashboard/views/widgets/widgetHeader.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionBusinessLogic.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomEvents.js
+ WebContent/resources/script/genericCollection/genericCollection.js
+ WebContent/resources/script/genericCollection/service/genericCollectionDelegate.js
+ WebContent/resources/script/genericCollection/service/genericCollectionServices.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionUtil.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/genericCollection/views/genericCollectionAdd.js
+ WebContent/resources/script/genericCollection/views/genericCollectionImport.js
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActionIcons.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionAdd.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionImport.dust
+ WebContent/resources/script/aps/core/apsConstants.js → WebContent/resources/script/modules/aps/core/apsConstants.js
+ WebContent/resources/script/modules/aps/core/apsCoreConfig.js
+ WebContent/resources/script/aps/core/apsServices.js → WebContent/resources/script/modules/aps/core/apsServices.js
+ WebContent/resources/script/aps/core/apsUtil.js → WebContent/resources/script/modules/aps/core/apsUtil.js
+ WebContent/resources/script/aps/core/controller/apsRequestAcl.js → WebContent/resources/script/modules/aps/core/controller/apsRequestAcl.js
+ WebContent/resources/script/aps/core/controller/apsTemplateacl.js → WebContent/resources/script/modules/aps/core/controller/apsTemplateacl.js
+ WebContent/resources/script/aps/core/service/apsRequestDelegate.js → WebContent/resources/script/modules/aps/core/service/apsRequestDelegate.js
+ WebContent/resources/script/aps/core/service/apsTemplateDelegate.js → WebContent/resources/script/modules/aps/core/service/apsTemplateDelegate.js
+ WebContent/resources/script/aps/request/apsRequestInventory.js → WebContent/resources/script/modules/aps/request/apsRequestInventory.js
+ WebContent/resources/script/aps/request/apsRequestLog.js → WebContent/resources/script/modules/aps/request/apsRequestLog.js
+ WebContent/resources/script/aps/request/apsRequestMain.js → WebContent/resources/script/modules/aps/request/apsRequestMain.js
+ WebContent/resources/script/aps/request/apsRequestRouteProvider.js → WebContent/resources/script/modules/aps/request/apsRequestRouteProvider.js
+ WebContent/resources/script/aps/request/apsWorkorderInventory.js → WebContent/resources/script/modules/aps/request/apsWorkorderInventory.js
+ WebContent/resources/script/aps/request/apsWorkorderLog.js → WebContent/resources/script/modules/aps/request/apsWorkorderLog.js
+ WebContent/resources/script/aps/request/apsWorkorderReviewPage.js → WebContent/resources/script/modules/aps/request/apsWorkorderReviewPage.js
+ WebContent/resources/script/aps/request/apsWorkorderpage.js → WebContent/resources/script/modules/aps/request/apsWorkorderpage.js
+ WebContent/resources/script/aps/request/controller/apsRequestBusinessLogic.js → WebContent/resources/script/modules/aps/request/controller/apsRequestBusinessLogic.js
+ WebContent/resources/script/aps/request/controller/apsRequestDomEvents.js → WebContent/resources/script/modules/aps/request/controller/apsRequestDomEvents.js
+ WebContent/resources/script/aps/request/controller/apsRequestInventoryBusinessLogic.js → WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/aps/request/controller/apsRequestInventoryDomEvents.js → WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryDomEvents.js
+ WebContent/resources/script/aps/request/controller/apsWorkOrderBusinessLogic.js → WebContent/resources/script/modules/aps/request/controller/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/aps/request/controller/apsWorkorderEvents.js → WebContent/resources/script/modules/aps/request/controller/apsWorkorderEvents.js
+ WebContent/resources/script/aps/request/tabularWorker.js → WebContent/resources/script/modules/aps/request/tabularWorker.js
+ WebContent/resources/script/modules/aps/request/views/apsRequest.js
+ WebContent/resources/script/modules/aps/request/views/apsRequestDomElements.js
+ WebContent/resources/script/modules/aps/request/views/apsRequestLog.js
+ WebContent/resources/script/modules/aps/request/views/apsRequestMain.js
+ WebContent/resources/script/aps/views/apsRequestTemplateForm.js → WebContent/resources/script/modules/aps/request/views/apsRequestTemplateForm.js
+ WebContent/resources/script/modules/aps/request/views/apsWorkorderInventory.js
+ WebContent/resources/script/aps/views/apsWorkorderLog.js → WebContent/resources/script/modules/aps/request/views/apsWorkorderLog.js
+ WebContent/resources/script/aps/views/apsWorkorderPage.js → WebContent/resources/script/modules/aps/request/views/apsWorkorderPage.js
+ WebContent/resources/script/aps/views/apsWorkorderReviewPage.js → WebContent/resources/script/modules/aps/request/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/aps/views/customFilter.js → WebContent/resources/script/modules/aps/request/views/customFilter.js
+ WebContent/resources/script/aps/views/filterOptions.js → WebContent/resources/script/modules/aps/request/views/filterOptions.js
+ WebContent/resources/script/aps/views/templates/apsRequest.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequest.dust
+ WebContent/resources/script/aps/views/templates/apsRequestDomElements.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequestDomElements.dust
+ WebContent/resources/script/aps/views/templates/apsRequestLog.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequestLog.dust
+ WebContent/resources/script/aps/views/templates/apsRequestMain.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequestMain.dust
+ WebContent/resources/script/aps/views/templates/apsRequestTemplateForm.dust → WebContent/resources/script/modules/aps/request/views/templates/apsRequestTemplateForm.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderInventory.dust → WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderInventory.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderLog.dust → WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderLog.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderPage.dust → WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderPage.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderReviewPage.dust → WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/aps/views/templates/customFilter.dust → WebContent/resources/script/modules/aps/request/views/templates/customFilter.dust
+ WebContent/resources/script/aps/views/templates/filterOptions.dust → WebContent/resources/script/modules/aps/request/views/templates/filterOptions.dust
+ WebContent/resources/script/aps/template/apsHelperScriptAdd.js → WebContent/resources/script/modules/aps/template/apsHelperScriptAdd.js
+ WebContent/resources/script/aps/template/apsHelperScriptInventory.js → WebContent/resources/script/modules/aps/template/apsHelperScriptInventory.js
+ WebContent/resources/script/aps/template/apsTemplateList.js → WebContent/resources/script/modules/aps/template/apsTemplateList.js
+ WebContent/resources/script/aps/template/apsTemplateMain.js → WebContent/resources/script/modules/aps/template/apsTemplateMain.js
+ WebContent/resources/script/aps/template/controller/apsBusinessLogic.js → WebContent/resources/script/modules/aps/template/controller/apsBusinessLogic.js
+ WebContent/resources/script/aps/template/controller/apsDomEvents.js → WebContent/resources/script/modules/aps/template/controller/apsDomEvents.js
+ WebContent/resources/script/aps/template/controller/apsDomManipulation.js → WebContent/resources/script/modules/aps/template/controller/apsDomManipulation.js
+ WebContent/resources/script/aps/template/controller/apsInventoryBusinessLogic.js → WebContent/resources/script/modules/aps/template/controller/apsInventoryBusinessLogic.js
+ WebContent/resources/script/aps/template/controller/apsInventoryDomEvents.js → WebContent/resources/script/modules/aps/template/controller/apsInventoryDomEvents.js
+ WebContent/resources/script/aps/template/controller/apsTemplateInventoryBusinessLogic.js → WebContent/resources/script/modules/aps/template/controller/apsTemplateInventoryBusinessLogic.js
+ WebContent/resources/script/aps/template/controller/apsTemplateInventoryDomEvents.js → WebContent/resources/script/modules/aps/template/controller/apsTemplateInventoryDomEvents.js
+ WebContent/resources/script/aps/template/controller/apsTemplateRouteProvider.js → WebContent/resources/script/modules/aps/template/controller/apsTemplateRouteProvider.js
+ WebContent/resources/script/aps/template/formBuilderWorker.js → WebContent/resources/script/modules/aps/template/formBuilderWorker.js
+ WebContent/resources/script/aps/template/objectPushPop.js → WebContent/resources/script/modules/aps/template/objectPushPop.js
+ WebContent/resources/script/modules/aps/template/views/apsActionIcons.js
+ WebContent/resources/script/aps/views/apsAssociateErrorLogs.js → WebContent/resources/script/modules/aps/template/views/apsAssociateErrorLogs.js
+ WebContent/resources/script/aps/views/apsFormbuilder.js → WebContent/resources/script/modules/aps/template/views/apsFormbuilder.js
+ WebContent/resources/script/aps/views/apsHelperScriptAdd.js → WebContent/resources/script/modules/aps/template/views/apsHelperScriptAdd.js
+ WebContent/resources/script/modules/aps/template/views/apsHelperScriptInventory.js
+ WebContent/resources/script/aps/views/apsInformationTabContent.js → WebContent/resources/script/modules/aps/template/views/apsInformationTabContent.js
+ WebContent/resources/script/modules/aps/template/views/apsRegexLibrary.js
+ WebContent/resources/script/modules/aps/template/views/apsTemplate.js
+ WebContent/resources/script/aps/views/apsTemplateImport.js → WebContent/resources/script/modules/aps/template/views/apsTemplateImport.js
+ WebContent/resources/script/modules/aps/template/views/apsTemplateMain.js
+ WebContent/resources/script/modules/aps/template/views/associatedScriptTabContent.js
+ WebContent/resources/script/aps/views/createTemplateField.js → WebContent/resources/script/modules/aps/template/views/createTemplateField.js
+ WebContent/resources/script/aps/views/masterScriptTabContent.js → WebContent/resources/script/modules/aps/template/views/masterScriptTabContent.js
+ WebContent/resources/script/aps/views/previewOutputForMasterScript.js → WebContent/resources/script/modules/aps/template/views/previewOutputForMasterScript.js
+ WebContent/resources/script/aps/views/settingsTabContent.js → WebContent/resources/script/modules/aps/template/views/settingsTabContent.js
+ WebContent/resources/script/modules/aps/template/views/settingsTabEmailConfigContent.js
+ WebContent/resources/script/aps/views/settingsTabRequestRolesContent.js → WebContent/resources/script/modules/aps/template/views/settingsTabRequestRolesContent.js
+ WebContent/resources/script/modules/aps/template/views/templates/apsActionIcons.dust
+ WebContent/resources/script/aps/views/templates/apsAssociateErrorLogs.dust → WebContent/resources/script/modules/aps/template/views/templates/apsAssociateErrorLogs.dust
+ WebContent/resources/script/aps/views/templates/apsFormbuilder.dust → WebContent/resources/script/modules/aps/template/views/templates/apsFormbuilder.dust
+ WebContent/resources/script/aps/views/templates/apsHelperScriptAdd.dust → WebContent/resources/script/modules/aps/template/views/templates/apsHelperScriptAdd.dust
+ WebContent/resources/script/aps/views/templates/apsHelperScriptInventory.dust → WebContent/resources/script/modules/aps/template/views/templates/apsHelperScriptInventory.dust
+ WebContent/resources/script/aps/views/templates/apsInformationTabContent.dust → WebContent/resources/script/modules/aps/template/views/templates/apsInformationTabContent.dust
+ WebContent/resources/script/aps/views/templates/apsRegexLibrary.dust → WebContent/resources/script/modules/aps/template/views/templates/apsRegexLibrary.dust
+ WebContent/resources/script/modules/aps/template/views/templates/apsTemplate.dust
+ WebContent/resources/script/aps/views/templates/apsTemplateImport.dust → WebContent/resources/script/modules/aps/template/views/templates/apsTemplateImport.dust
+ WebContent/resources/script/aps/views/templates/apsTemplateMain.dust → WebContent/resources/script/modules/aps/template/views/templates/apsTemplateMain.dust
+ WebContent/resources/script/aps/views/templates/associatedScriptTabContent.dust → WebContent/resources/script/modules/aps/template/views/templates/associatedScriptTabContent.dust
+ WebContent/resources/script/aps/views/templates/createTemplateField.dust → WebContent/resources/script/modules/aps/template/views/templates/createTemplateField.dust
+ WebContent/resources/script/aps/views/templates/masterScriptTabContent.dust → WebContent/resources/script/modules/aps/template/views/templates/masterScriptTabContent.dust
+ WebContent/resources/script/aps/views/templates/previewOutputForMasterScript.dust → WebContent/resources/script/modules/aps/template/views/templates/previewOutputForMasterScript.dust
+ WebContent/resources/script/aps/views/templates/settingsTabContent.dust → WebContent/resources/script/modules/aps/template/views/templates/settingsTabContent.dust
+ WebContent/resources/script/aps/views/templates/settingsTabEmailConfigContent.dust → WebContent/resources/script/modules/aps/template/views/templates/settingsTabEmailConfigContent.dust
+ WebContent/resources/script/aps/views/templates/settingsTabRequestRolesContent.dust → WebContent/resources/script/modules/aps/template/views/templates/settingsTabRequestRolesContent.dust
+ WebContent/resources/script/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/ssh/keyHolistic/keyHolisticBusinessLogic.js
+ src/main/java/com/payoda/appviewx/core/constants/AppProvisioningConstants.java
+ src/main/java/com/payoda/appviewx/core/constants/ObjectConstants.java
+ src/main/java/com/payoda/appviewx/web/adapter/IGeneralCollectionAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/GeneralCollectionAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/APSAccessControlListController.java
+ src/main/java/com/payoda/appviewx/web/controller/AppSettingsController.java
+ src/main/java/com/payoda/appviewx/web/controller/GeneralCollectionController.java
+ src/main/java/com/payoda/appviewx/web/util/GeneralCollectionUtil.java
+ src/main/java/com/payoda/appviewx/web/validator/GeneralCollectionValidator.java
+ src/main/java/com/payoda/commons/core/constants/AppErrorCode.java
+
+
+ Merge remote-tracking branch 'integration/master'
+
+Conflicts:
+	WebContent/grunt-tasks/dustjs.js
+	WebContent/grunt-tasks/requirejs.js
+	WebContent/resources/script/app/bootstrapConfig.js
+	WebContent/resources/script/app/controller/appBusinessLogic.js
+	WebContent/resources/script/app/views/actionIcons.js
+	WebContent/resources/script/aps/views/apsHelperScriptAdd.js
+	WebContent/resources/script/aps/views/apsRequest.js
+	WebContent/resources/script/aps/views/apsRequestDomElements.js
+	WebContent/resources/script/aps/views/apsTemplateImport.js
+	WebContent/resources/script/aps/views/customFilter.js
+	WebContent/resources/script/dashboard/views/widgets/widgetHeader.js
+	WebContent/resources/script/ssh/keyHolistic/keyHolisticBusinessLogic.js
+
+30/5/2017
+
+ WebContent/locale/nls/en/workflowInventory.js
+ WebContent/resources/generated/css/app-default.min.css
+ WebContent/resources/generated/css/app-green.min.css
+ WebContent/resources/generated/css/app.css
+ WebContent/resources/generated/css/master-style.css
+ WebContent/resources/less/custom/global.less
+ WebContent/resources/less/modules/workflow.less
+ WebContent/resources/script/aps/views/apsRequestDomElements.js
+ WebContent/resources/script/aps/views/apsTemplateImport.js
+ WebContent/resources/script/aps/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/aps/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/core/SiteScripts.js
+ WebContent/resources/script/core/directives/fileUpload.js
+ WebContent/resources/script/core/directives/uiUtils.js
+ WebContent/resources/script/core/extendables/dustHelper.js
+ WebContent/resources/script/modules/workflow/components/workflowDropCompTemplate.js
+ WebContent/resources/script/modules/workflow/components/workflowMapWorker.js
+ WebContent/resources/script/modules/workflow/controller/configurator/configuratorBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/configurator/configuratorDomEvents.js
+ WebContent/resources/script/modules/workflow/controller/configurator/taskPropertiesBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/inventory/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/inventory/inventoryBusinessLogics.js
+ WebContent/resources/script/modules/workflow/controller/inventory/inventoryDomEvents.js
+ WebContent/resources/script/modules/workflow/controller/request/apsRequestBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/request/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/request/requestBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/request/requestDomEvents.js
+ WebContent/resources/script/modules/workflow/controller/requestRouteProvider.js
+ WebContent/resources/script/modules/workflow/controller/template/apsBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/template/apsDomManipulation.js
+ WebContent/resources/script/modules/workflow/controller/workflowRouteProvider.js
+ WebContent/resources/script/modules/workflow/core/workflowConstants.js
+ WebContent/resources/script/modules/workflow/core/workflowFormConfig.js
+ WebContent/resources/script/modules/workflow/core/workflowUtils.js
+ WebContent/resources/script/modules/workflow/service/configurator/configuratorModel.js
+ WebContent/resources/script/modules/workflow/service/inventory/inventoryDelegate.js
+ WebContent/resources/script/modules/workflow/service/request/requestDelegate.js
+ WebContent/resources/script/modules/workflow/service/request/requestModel.js
+ WebContent/resources/script/modules/workflow/views/apsFormbuilder.js
+ WebContent/resources/script/modules/workflow/views/apsRequestTemplateForm.js
+ WebContent/resources/script/modules/workflow/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/modules/workflow/views/columnDetail.js
+ WebContent/resources/script/modules/workflow/views/gridComponentForm.js
+ WebContent/resources/script/modules/workflow/views/rulesCustomList.js
+ WebContent/resources/script/modules/workflow/views/stageView.js
+ WebContent/resources/script/modules/workflow/views/templates/apsFormbuilder.dust
+ WebContent/resources/script/modules/workflow/views/templates/apsRequestTemplateForm.dust
+ WebContent/resources/script/modules/workflow/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/modules/workflow/views/templates/columnDetail.dust
+ WebContent/resources/script/modules/workflow/views/templates/gridComponentForm.dust
+ WebContent/resources/script/modules/workflow/views/templates/rulesCustomList.dust
+ WebContent/resources/script/modules/workflow/views/templates/stageView.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowActionIcons.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowForm.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowTemplateGrid.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowTemplateImport.dust
+ WebContent/resources/script/modules/workflow/views/workflowActionIcons.js
+ WebContent/resources/script/modules/workflow/views/workflowForm.js
+ WebContent/resources/script/modules/workflow/views/workflowTemplateGrid.js
+ WebContent/resources/script/modules/workflow/views/workflowTemplateImport.js
+ WebContent/resources/script/settings/views/changemanagement.js
+ WebContent/resources/script/settings/views/templates/changemanagement.dust
+ src/main/java/com/payoda/appviewx/core/constants/WorkflowConstants.java
+ src/main/java/com/payoda/appviewx/web/adapter/IVisualWorkFlowAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/VisualWorkFlowAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/AppSettingsController.java
+ src/main/java/com/payoda/appviewx/web/controller/VisualWorkFlowController.java
+
+ Merge remote-tracking branch 'integration/master'
+
+Conflicts:
+	WebContent/grunt-tasks/dustjs.js
+	WebContent/grunt-tasks/requirejs.js
+	WebContent/locale/nls/en/app.js
+	WebContent/locale/nls/en/settings.js
+	WebContent/resources/generated/css/app-default.min.css
+	WebContent/resources/generated/css/app-green.min.css
+	WebContent/resources/generated/css/app.css
+	WebContent/resources/generated/css/master-style.css
+	WebContent/resources/less/custom/custom-variables.less
+	WebContent/resources/less/custom/global.less
+	WebContent/resources/less/modules.less
+	WebContent/resources/less/plugins.less
+	WebContent/resources/script/app/bootstrapConfig.js
+	WebContent/resources/script/app/controller/appBusinessLogic.js
+	WebContent/resources/script/app/views/actionIcons.js
+	WebContent/resources/script/app/views/templates/actionIcons.dust
+	WebContent/resources/script/aps/views/apsRequestDomElements.js
+	WebContent/resources/script/aps/views/apsTemplateImport.js
+	WebContent/resources/script/aps/views/apsWorkorderReviewPage.js
+	WebContent/resources/script/aps/views/customFilter.js
+	WebContent/resources/script/aps/views/templates/apsWorkorderReviewPage.dust
+	WebContent/resources/script/core/directives/ValidationComponent.js
+	WebContent/resources/script/core/directives/fileUpload.js
+	WebContent/resources/script/core/extendables/dustHelper.js
+	WebContent/resources/script/genericCollection/views/genericCollectionActionIcons.js
+	WebContent/resources/script/settings/controller/settingsBusinessLogic.js
+	WebContent/resources/script/settings/controller/settingsDomEvents.js
+	WebContent/resources/script/settings/service/settingsDelegate.js
+	WebContent/resources/script/settings/utils/settingsConfig.js
+	WebContent/resources/script/settings/utils/settingsUtil.js
+	WebContent/resources/script/settings/views/templates/settings.dust
+	src/main/java/com/payoda/appviewx/web/controller/AppSettingsController.java
+	src/main/resources/adapter-context.xml
+
+
+
+
+	Workflow :31/5/2017
+
+
+	 WebContent/dev-addons/avx-build/config/dustjsConfig.js
+ WebContent/dev-addons/avx-build/config/requirejsConfig.js
+ WebContent/dev-addons/avx-build/grunt-tasks/requirejs.js
+ WebContent/locale/nls/en/app.js
+ WebContent/locale/nls/en/settings.js
+ WebContent/locale/nls/en/workflowInventory.js
+ WebContent/locale/nls/fr-fr/workflowInventory.js
+ WebContent/locale/nls/workflowInventory.js
+ WebContent/resources/generated/css/core.css
+ WebContent/resources/script/app/bootstrapConfig.js
+ WebContent/resources/script/app/controller/appBusinessLogic.js
+ WebContent/resources/script/app/views/templates/actionIcons.dust
+ WebContent/resources/script/aps/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/core/SiteScripts.js
+ WebContent/resources/script/core/directives/ValidationComponent.js
+ WebContent/resources/script/core/directives/directives.js
+ WebContent/resources/script/core/directives/fileUpload.js
+ WebContent/resources/script/core/directives/moduleConfig.js
+ WebContent/resources/script/core/directives/ruleEngine/ruleEngine.js
+ WebContent/resources/script/core/directives/ruleEngine/views/ruleEngineGroupContent.js
+ WebContent/resources/script/core/directives/ruleEngine/views/ruleEngineRuleContent.js
+ WebContent/resources/script/core/directives/ruleEngine/views/templates/ruleEngineGroupContent.dust
+ WebContent/resources/script/core/directives/ruleEngine/views/templates/ruleEngineRuleContent.dust
+ WebContent/resources/script/core/directives/uiUtils.js
+ WebContent/resources/script/core/extendables/dustHelper.js
+ WebContent/resources/script/core/homeScript.js
+ WebContent/resources/script/core/lib/quill.min.js
+ WebContent/resources/script/modules/workflow/components/configuratorMapInitialization.js
+ WebContent/resources/script/modules/workflow/components/contextMenuComponent.js
+ WebContent/resources/script/modules/workflow/components/menuListComponent.js
+ WebContent/resources/script/modules/workflow/components/panZoom.js
+ WebContent/resources/script/modules/workflow/components/schedulerTemplate.js
+ WebContent/resources/script/modules/workflow/components/workflowDropCompTemplate.js
+ WebContent/resources/script/modules/workflow/components/workflowMapWorker.js
+ WebContent/resources/script/modules/workflow/controller/configurator/configuratorBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/configurator/configuratorDomEvents.js
+ WebContent/resources/script/modules/workflow/controller/configurator/configuratorDomManipulation.js
+ WebContent/resources/script/modules/workflow/controller/configurator/taskPropertiesBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/inventory/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/inventory/inventoryBusinessLogics.js
+ WebContent/resources/script/modules/workflow/controller/inventory/inventoryDomEvents.js
+ WebContent/resources/script/modules/workflow/controller/request.js
+ WebContent/resources/script/modules/workflow/controller/request/apsRequestBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/request/apsRequestDomEvents.js
+ WebContent/resources/script/modules/workflow/controller/request/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/request/apsWorkorderEvents.js
+ WebContent/resources/script/modules/workflow/controller/request/requestBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/request/requestDomEvents.js
+ WebContent/resources/script/modules/workflow/controller/requestRouteProvider.js
+ WebContent/resources/script/modules/workflow/controller/template/apsBusinessLogic.js
+ WebContent/resources/script/modules/workflow/controller/template/apsDomEvents.js
+ WebContent/resources/script/modules/workflow/controller/template/apsDomManipulation.js
+ WebContent/resources/script/modules/workflow/controller/template/objectPushPop.js
+ WebContent/resources/script/modules/workflow/controller/workflow.js
+ WebContent/resources/script/modules/workflow/controller/workflowRouteProvider.js
+ WebContent/resources/script/modules/workflow/core/apsConstants.js
+ WebContent/resources/script/modules/workflow/core/apsServices.js
+ WebContent/resources/script/modules/workflow/core/apsUtil.js
+ WebContent/resources/script/modules/workflow/core/workflowConstants.js
+ WebContent/resources/script/modules/workflow/core/workflowFormConfig.js
+ WebContent/resources/script/modules/workflow/core/workflowUtils.js
+ WebContent/resources/script/modules/workflow/service/configurator/configuratorDelegate.js
+ WebContent/resources/script/modules/workflow/service/configurator/configuratorModel.js
+ WebContent/resources/script/modules/workflow/service/inventory/inventoryDelegate.js
+ WebContent/resources/script/modules/workflow/service/inventory/inventoryModel.js
+ WebContent/resources/script/modules/workflow/service/request/requestDelegate.js
+ WebContent/resources/script/modules/workflow/service/request/requestModel.js
+ WebContent/resources/script/modules/workflow/views/GridView.js
+ WebContent/resources/script/modules/workflow/views/ListView.js
+ WebContent/resources/script/modules/workflow/views/apsFormbuilder.js
+ WebContent/resources/script/modules/workflow/views/apsInformationTabContent.js
+ WebContent/resources/script/modules/workflow/views/apsRequestDomElements.js
+ WebContent/resources/script/modules/workflow/views/apsRequestTemplateForm.js
+ WebContent/resources/script/modules/workflow/views/apsTemplateMain.js
+ WebContent/resources/script/modules/workflow/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/modules/workflow/views/associatedScriptTabContent.js
+ WebContent/resources/script/modules/workflow/views/columnDetail.js
+ WebContent/resources/script/modules/workflow/views/configuratorView.js
+ WebContent/resources/script/modules/workflow/views/contextMenuComponent.js
+ WebContent/resources/script/modules/workflow/views/createTemplateField.js
+ WebContent/resources/script/modules/workflow/views/createWorkflowTemplatePopup.js
+ WebContent/resources/script/modules/workflow/views/gridComponentForm.js
+ WebContent/resources/script/modules/workflow/views/menuListComponentGroup.js
+ WebContent/resources/script/modules/workflow/views/menuListComponentGroupItems.js
+ WebContent/resources/script/modules/workflow/views/menuListComponentSearch.js
+ WebContent/resources/script/modules/workflow/views/mycatalog.js
+ WebContent/resources/script/modules/workflow/views/myworkflow.js
+ WebContent/resources/script/modules/workflow/views/myworkflowGrid.js
+ WebContent/resources/script/modules/workflow/views/requestinventory.js
+ WebContent/resources/script/modules/workflow/views/retryTaskContent.js
+ WebContent/resources/script/modules/workflow/views/rulesCustomList.js
+ WebContent/resources/script/modules/workflow/views/scheduledworkflow.js
+ WebContent/resources/script/modules/workflow/views/schedulerTabContent.js
+ WebContent/resources/script/modules/workflow/views/schedulerTabs.js
+ WebContent/resources/script/modules/workflow/views/settingsTabContent.js
+ WebContent/resources/script/modules/workflow/views/settingsTabEmailConfigContent.js
+ WebContent/resources/script/modules/workflow/views/settingsTabRequestRolesContent.js
+ WebContent/resources/script/modules/workflow/views/stageView.js
+ WebContent/resources/script/modules/workflow/views/templates/GridView.dust
+ WebContent/resources/script/modules/workflow/views/templates/ListView.dust
+ WebContent/resources/script/modules/workflow/views/templates/apsFormbuilder.dust
+ WebContent/resources/script/modules/workflow/views/templates/apsInformationTabContent.dust
+ WebContent/resources/script/modules/workflow/views/templates/apsRequestDomElements.dust
+ WebContent/resources/script/modules/workflow/views/templates/apsRequestTemplateForm.dust
+ WebContent/resources/script/modules/workflow/views/templates/apsTemplateMain.dust
+ WebContent/resources/script/modules/workflow/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/modules/workflow/views/templates/associatedScriptTabContent.dust
+ WebContent/resources/script/modules/workflow/views/templates/columnDetail.dust
+ WebContent/resources/script/modules/workflow/views/templates/configuratorView.dust
+ WebContent/resources/script/modules/workflow/views/templates/contextMenuComponent.dust
+ WebContent/resources/script/modules/workflow/views/templates/createTemplateField.dust
+ WebContent/resources/script/modules/workflow/views/templates/createWorkflowTemplatePopup.dust
+ WebContent/resources/script/modules/workflow/views/templates/gridComponentForm.dust
+ WebContent/resources/script/modules/workflow/views/templates/menuListComponentGroup.dust
+ WebContent/resources/script/modules/workflow/views/templates/menuListComponentGroupItems.dust
+ WebContent/resources/script/modules/workflow/views/templates/menuListComponentSearch.dust
+ WebContent/resources/script/modules/workflow/views/templates/mycatalog.dust
+ WebContent/resources/script/modules/workflow/views/templates/myworkflowGrid.dust
+ WebContent/resources/script/modules/workflow/views/templates/requestinventory.dust
+ WebContent/resources/script/modules/workflow/views/templates/retryTaskContent.dust
+ WebContent/resources/script/modules/workflow/views/templates/rulesCustomList.dust
+ WebContent/resources/script/modules/workflow/views/templates/scheduledworkflow.dust
+ WebContent/resources/script/modules/workflow/views/templates/schedulerTabContent.dust
+ WebContent/resources/script/modules/workflow/views/templates/schedulerTabs.dust
+ WebContent/resources/script/modules/workflow/views/templates/settingsTabContent.dust
+ WebContent/resources/script/modules/workflow/views/templates/settingsTabEmailConfigContent.dust
+ WebContent/resources/script/modules/workflow/views/templates/settingsTabRequestRolesContent.dust
+ WebContent/resources/script/modules/workflow/views/templates/stageView.dust
+ WebContent/resources/script/modules/workflow/views/templates/workOrderLogTable.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowActionIcons.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowForm.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowInventory.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowRequest.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowTemplateGrid.dust
+ WebContent/resources/script/modules/workflow/views/templates/workflowTemplateImport.dust
+ WebContent/resources/script/modules/workflow/views/templates/workorderLog.dust
+ WebContent/resources/script/modules/workflow/views/templates/workorderSummaryTemplate.dust
+ WebContent/resources/script/modules/workflow/views/workOrderLogTable.js
+ WebContent/resources/script/modules/workflow/views/workflowActionIcons.js
+ WebContent/resources/script/modules/workflow/views/workflowForm.js
+ WebContent/resources/script/modules/workflow/views/workflowInventory.js
+ WebContent/resources/script/modules/workflow/views/workflowRequest.js
+ WebContent/resources/script/modules/workflow/views/workflowTemplateGrid.js
+ WebContent/resources/script/modules/workflow/views/workflowTemplateImport.js
+ WebContent/resources/script/modules/workflow/views/workorderLog.js
+ WebContent/resources/script/modules/workflow/views/workorderSummaryTemplate.js
+ WebContent/resources/script/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/settings/controller/settingsDomEvents.js
+ WebContent/resources/script/settings/controller/settingsRouteProvider.js
+ WebContent/resources/script/settings/service/settingsDelegate.js
+ WebContent/resources/script/settings/settingsMain.js
+ WebContent/resources/script/settings/utils/settingsConfig.js
+ WebContent/resources/script/settings/utils/settingsUtil.js
+ WebContent/resources/script/settings/views/changemanagement.js
+ WebContent/resources/script/settings/views/settingsMenu.js
+ WebContent/resources/script/settings/views/templates/changemanagement.dust
+ WebContent/resources/script/settings/views/templates/settings.dust
+ WebContent/resources/script/settings/views/templates/settingsMenu.dust
+ WebContent/resources/script/settings/views/templates/vendorConfigurations.dust
+ WebContent/resources/script/settings/views/vendorConfigurations.js
+ WebContent/resources/styles/custom/custom-variables.less
+ WebContent/resources/styles/custom/global.less
+ WebContent/resources/styles/lib/plugins/quillJs.less
+ WebContent/resources/styles/lib/plugins/ruleEngine.less
+ WebContent/resources/styles/modules.less
+ WebContent/resources/styles/modules/workflow.less
+ WebContent/resources/styles/plugins.less
+ src/main/java/com/payoda/appviewx/core/constants/WorkflowConstants.java
+ src/main/java/com/payoda/appviewx/web/adapter/IAppSettingsAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/IVisualWorkFlowAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/AppSettingsAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/VisualWorkFlowAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/AppSettingsController.java
+ src/main/java/com/payoda/appviewx/web/controller/VisualWorkFlowController.java
+ src/main/resources/adapter-context.xml
+
+
+
+  WebContent/locale/nls/en/appProvisioning.js
+ WebContent/locale/nls/en/settings.js
+ WebContent/locale/nls/fr/appProvisioning.js
+ WebContent/locale/nls/pt/appProvisioning.js
+ WebContent/resources/script/core/plugins/ace.js
+ WebContent/resources/script/core/plugins/snippets/python.js
+ WebContent/resources/script/modules/aps/core/apsConstants.js
+ WebContent/resources/script/modules/aps/core/apsCoreConfig.js
+ WebContent/resources/script/modules/aps/core/apsUtil.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkorderEvents.js
+ WebContent/resources/script/modules/aps/request/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/modules/aps/request/views/commandEditor.js
+ WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/modules/aps/request/views/templates/commandEditor.dust
+ WebContent/resources/script/modules/aps/request/views/templates/woExecReport.dust
+ WebContent/resources/script/modules/aps/request/views/woExecReport.js
+ WebContent/resources/script/modules/aps/template/controller/apsBusinessLogic.js
+ WebContent/resources/script/modules/aps/template/views/apsActionIcons.js
+ WebContent/resources/script/modules/aps/template/views/templates/apsActionIcons.dust
+ WebContent/resources/script/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/settings/utils/settingsConfig.js
+ WebContent/resources/script/settings/views/templates/provisioning.dust
+ WebContent/resources/styles/modules/aps.less
+ src/main/java/com/payoda/appviewx/core/bean/aps/CommandBean.java
+ src/main/java/com/payoda/appviewx/web/adapter/IAPSRequestAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/APSRequestAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/APSRequestController.java
+ src/main/java/com/payoda/appviewx/web/util/GeneralCollectionUtil.java
+
+ 10/6/2017
+
+  WebContent/dev-addons/avx-build/config/dustjsConfig.js
+ WebContent/dev-addons/avx-build/config/requirejsConfig.js
+ WebContent/locale/nls/en/appProvisioning.js
+ WebContent/locale/nls/en/genericCollection.js
+ WebContent/locale/nls/en/settings.js
+ WebContent/locale/nls/fr/appProvisioning.js
+ WebContent/locale/nls/fr/genericCollection.js
+ WebContent/locale/nls/genericCollection.js
+ WebContent/locale/nls/pt/appProvisioning.js
+ WebContent/locale/nls/pt/genericCollection.js
+ WebContent/resources/generated/css/bootstrap.css
+ WebContent/resources/script/app/bootstrapConfig.js
+ WebContent/resources/script/core/SiteScripts.js
+ WebContent/resources/script/core/plugins/ace.js
+ WebContent/resources/script/core/plugins/jsoneditor.custom.js
+ WebContent/resources/script/core/plugins/snippets/python.js
+ WebContent/resources/script/genericCollection/genericCollection.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionConstants.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/modules/accounts/core/views/templates/user/userPreferences.dust
+ WebContent/resources/script/modules/aps/core/apsConstants.js
+ WebContent/resources/script/modules/aps/core/apsCoreConfig.js
+ WebContent/resources/script/modules/aps/core/apsUtil.js
+ WebContent/resources/script/modules/aps/core/controller/apsRequestAcl.js
+ WebContent/resources/script/modules/aps/core/controller/apsTemplateacl.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkorderEvents.js
+ WebContent/resources/script/modules/aps/request/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/modules/aps/request/views/commandEditor.js
+ WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/modules/aps/request/views/templates/commandEditor.dust
+ WebContent/resources/script/modules/aps/request/views/templates/woExecReport.dust
+ WebContent/resources/script/modules/aps/request/views/woExecReport.js
+ WebContent/resources/script/modules/aps/template/controller/apsBusinessLogic.js
+ WebContent/resources/script/modules/aps/template/views/apsActionIcons.js
+ WebContent/resources/script/modules/aps/template/views/templates/apsActionIcons.dust
+ WebContent/resources/script/genericCollection/controller/genericCollectionBusinessLogic.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionBusinessLogic.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomEvents.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionDomEvents.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomManipulation.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionDomManipulation.js
+ WebContent/resources/script/modules/genericCollection/controller/genericCollectionRouteProvider.js
+ WebContent/resources/script/modules/genericCollection/genericCollection.js
+ WebContent/resources/script/genericCollection/service/genericCollectionDelegate.js → WebContent/resources/script/modules/genericCollection/service/genericCollectionDelegate.js
+ WebContent/resources/script/genericCollection/service/genericCollectionServices.js → WebContent/resources/script/modules/genericCollection/service/genericCollectionServices.js
+ WebContent/resources/script/modules/genericCollection/utils/genericCollectionConstants.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionUtil.js → WebContent/resources/script/modules/genericCollection/utils/genericCollectionUtil.js
+ WebContent/resources/script/genericCollection/views/genericCollection.js → WebContent/resources/script/modules/genericCollection/views/genericCollection.js
+ WebContent/resources/script/modules/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActivityLog.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionActivityLog.js
+ WebContent/resources/script/genericCollection/views/genericCollectionAdd.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionAdd.js
+ WebContent/resources/script/genericCollection/views/genericCollectionHome.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionHome.js
+ WebContent/resources/script/genericCollection/views/genericCollectionImport.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionImport.js
+ WebContent/resources/script/modules/genericCollection/views/genericCollectionMetaDetails.js
+ WebContent/resources/script/genericCollection/views/templates/genericCollection.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollection.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActionIcons.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionActionIcons.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActivityLog.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionActivityLog.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionAdd.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionAdd.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionHome.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionHome.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionImport.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionImport.dust
+ WebContent/resources/script/modules/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/modules/settings/utils/settingsConfig.js
+ WebContent/resources/script/modules/settings/views/templates/provisioning.dust
+ WebContent/resources/script/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/settings/utils/settingsConfig.js
+ WebContent/resources/styles/custom/global.less
+ WebContent/resources/styles/lib/plugins/jsonEditor.less
+ WebContent/resources/styles/lib/plugins/quillJs.less
+ WebContent/resources/styles/modules/aps.less
+ WebContent/resources/styles/modules/genericCollection.less
+ src/main/java/com/payoda/appviewx/core/bean/aps/CommandBean.java
+ src/main/java/com/payoda/appviewx/core/constants/AppProvisioningConstants.java
+ src/main/java/com/payoda/appviewx/web/adapter/IAPSRequestAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/APSAccessControlListAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/APSRequestAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/APSRequestController.java
+ src/main/java/com/payoda/appviewx/web/controller/GeneralCollectionController.java
+ src/main/java/com/payoda/appviewx/web/controller/HomeController.java
+ src/main/java/com/payoda/appviewx/web/util/GeneralCollectionUtil.java
+ src/main/java/com/payoda/appviewx/web/validator/GeneralCollectionValidator.java
+ src/main/java/com/payoda/commons/core/constants/AppErrorCode.java
+
+
+ 10/6/2017 78:::: files
+
+  WebContent/dev-addons/avx-build/config/dustjsConfig.js
+ WebContent/dev-addons/avx-build/config/requirejsConfig.js
+ WebContent/locale/nls/en/appProvisioning.js
+ WebContent/locale/nls/en/genericCollection.js
+ WebContent/locale/nls/en/settings.js
+ WebContent/locale/nls/fr/appProvisioning.js
+ WebContent/locale/nls/fr/genericCollection.js
+ WebContent/locale/nls/genericCollection.js
+ WebContent/locale/nls/pt/appProvisioning.js
+ WebContent/locale/nls/pt/genericCollection.js
+ WebContent/resources/script/app/bootstrapConfig.js
+ WebContent/resources/script/core/SiteScripts.js
+ WebContent/resources/script/core/plugins/ace.js
+ WebContent/resources/script/core/plugins/jsoneditor.custom.js
+ WebContent/resources/script/core/plugins/snippets/python.js
+ WebContent/resources/script/genericCollection/genericCollection.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionConstants.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/modules/accounts/core/views/templates/user/userPreferences.dust
+ WebContent/resources/script/modules/aps/core/apsConstants.js
+ WebContent/resources/script/modules/aps/core/apsCoreConfig.js
+ WebContent/resources/script/modules/aps/core/apsUtil.js
+ WebContent/resources/script/modules/aps/core/controller/apsRequestAcl.js
+ WebContent/resources/script/modules/aps/core/controller/apsTemplateacl.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkorderEvents.js
+ WebContent/resources/script/modules/aps/request/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/modules/aps/request/views/commandEditor.js
+ WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/modules/aps/request/views/templates/commandEditor.dust
+ WebContent/resources/script/modules/aps/request/views/templates/woExecReport.dust
+ WebContent/resources/script/modules/aps/request/views/woExecReport.js
+ WebContent/resources/script/modules/aps/template/controller/apsBusinessLogic.js
+ WebContent/resources/script/modules/aps/template/views/apsActionIcons.js
+ WebContent/resources/script/modules/aps/template/views/templates/apsActionIcons.dust
+ WebContent/resources/script/genericCollection/controller/genericCollectionBusinessLogic.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionBusinessLogic.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomEvents.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionDomEvents.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomManipulation.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionDomManipulation.js
+ WebContent/resources/script/modules/genericCollection/controller/genericCollectionRouteProvider.js
+ WebContent/resources/script/modules/genericCollection/genericCollection.js
+ WebContent/resources/script/genericCollection/service/genericCollectionDelegate.js → WebContent/resources/script/modules/genericCollection/service/genericCollectionDelegate.js
+ WebContent/resources/script/genericCollection/service/genericCollectionServices.js → WebContent/resources/script/modules/genericCollection/service/genericCollectionServices.js
+ WebContent/resources/script/modules/genericCollection/utils/genericCollectionConstants.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionUtil.js → WebContent/resources/script/modules/genericCollection/utils/genericCollectionUtil.js
+ WebContent/resources/script/genericCollection/views/genericCollection.js → WebContent/resources/script/modules/genericCollection/views/genericCollection.js
+ WebContent/resources/script/modules/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActivityLog.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionActivityLog.js
+ WebContent/resources/script/genericCollection/views/genericCollectionAdd.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionAdd.js
+ WebContent/resources/script/genericCollection/views/genericCollectionHome.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionHome.js
+ WebContent/resources/script/genericCollection/views/genericCollectionImport.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionImport.js
+ WebContent/resources/script/modules/genericCollection/views/genericCollectionMetaDetails.js
+ WebContent/resources/script/genericCollection/views/templates/genericCollection.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollection.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActionIcons.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionActionIcons.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActivityLog.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionActivityLog.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionAdd.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionAdd.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionHome.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionHome.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionImport.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionImport.dust
+ WebContent/resources/script/modules/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/modules/settings/utils/settingsConfig.js
+ WebContent/resources/script/modules/settings/views/templates/provisioning.dust
+ WebContent/resources/styles/custom/global.less
+ WebContent/resources/styles/lib/plugins/jsonEditor.less
+ WebContent/resources/styles/lib/plugins/quillJs.less
+ WebContent/resources/styles/modules/aps.less
+ WebContent/resources/styles/modules/genericCollection.less
+ src/main/java/com/payoda/appviewx/core/bean/aps/CommandBean.java
+ src/main/java/com/payoda/appviewx/core/constants/AppProvisioningConstants.java
+ src/main/java/com/payoda/appviewx/web/adapter/IAPSRequestAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/APSAccessControlListAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/APSRequestAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/APSRequestController.java
+ src/main/java/com/payoda/appviewx/web/controller/GeneralCollectionController.java
+ src/main/java/com/payoda/appviewx/web/controller/HomeController.java
+ src/main/java/com/payoda/appviewx/web/util/GeneralCollectionUtil.java
+ src/main/java/com/payoda/appviewx/web/validator/GeneralCollectionValidator.java
+ src/main/java/com/payoda/commons/core/constants/AppErrorCode.java
+
+
+ 
+Merge remote-tracking branch 'integration/master'
+
+Conflicts:
+	WebContent/dev-addons/avx-build/config/dustjsConfig.js
+	WebContent/dev-addons/avx-build/config/requirejsConfig.js
+	WebContent/resources/script/modules/aps/request/controller/apsRequestBusinessLogic.js
+	WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderReviewPage.dust
+
+
+	
+InlineSide-by-side
+Showing 78 changed files with 10048 additions and 8014 deletions
+ WebContent/dev-addons/avx-build/config/dustjsConfig.js
+ WebContent/dev-addons/avx-build/config/requirejsConfig.js
+ WebContent/locale/nls/en/appProvisioning.js
+ WebContent/locale/nls/en/genericCollection.js
+ WebContent/locale/nls/en/settings.js
+ WebContent/locale/nls/fr/appProvisioning.js
+ WebContent/locale/nls/fr/genericCollection.js
+ WebContent/locale/nls/genericCollection.js
+ WebContent/locale/nls/pt/appProvisioning.js
+ WebContent/locale/nls/pt/genericCollection.js
+ WebContent/resources/script/app/bootstrapConfig.js
+ WebContent/resources/script/core/SiteScripts.js
+ WebContent/resources/script/core/plugins/ace.js
+ WebContent/resources/script/core/plugins/jsoneditor.custom.js
+ WebContent/resources/script/core/plugins/snippets/python.js
+ WebContent/resources/script/genericCollection/genericCollection.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionConstants.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/modules/accounts/core/views/templates/user/userPreferences.dust
+ WebContent/resources/script/modules/aps/core/apsConstants.js
+ WebContent/resources/script/modules/aps/core/apsCoreConfig.js
+ WebContent/resources/script/modules/aps/core/apsUtil.js
+ WebContent/resources/script/modules/aps/core/controller/apsRequestAcl.js
+ WebContent/resources/script/modules/aps/core/controller/apsTemplateacl.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkorderEvents.js
+ WebContent/resources/script/modules/aps/request/views/apsWorkorderReviewPage.js
+ WebContent/resources/script/modules/aps/request/views/commandEditor.js
+ WebContent/resources/script/modules/aps/request/views/templates/apsWorkorderReviewPage.dust
+ WebContent/resources/script/modules/aps/request/views/templates/commandEditor.dust
+ WebContent/resources/script/modules/aps/request/views/templates/woExecReport.dust
+ WebContent/resources/script/modules/aps/request/views/woExecReport.js
+ WebContent/resources/script/modules/aps/template/controller/apsBusinessLogic.js
+ WebContent/resources/script/modules/aps/template/views/apsActionIcons.js
+ WebContent/resources/script/modules/aps/template/views/templates/apsActionIcons.dust
+ WebContent/resources/script/genericCollection/controller/genericCollectionBusinessLogic.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionBusinessLogic.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomEvents.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionDomEvents.js
+ WebContent/resources/script/genericCollection/controller/genericCollectionDomManipulation.js → WebContent/resources/script/modules/genericCollection/controller/genericCollectionDomManipulation.js
+ WebContent/resources/script/modules/genericCollection/controller/genericCollectionRouteProvider.js
+ WebContent/resources/script/modules/genericCollection/genericCollection.js
+ WebContent/resources/script/genericCollection/service/genericCollectionDelegate.js → WebContent/resources/script/modules/genericCollection/service/genericCollectionDelegate.js
+ WebContent/resources/script/genericCollection/service/genericCollectionServices.js → WebContent/resources/script/modules/genericCollection/service/genericCollectionServices.js
+ WebContent/resources/script/modules/genericCollection/utils/genericCollectionConstants.js
+ WebContent/resources/script/genericCollection/utils/genericCollectionUtil.js → WebContent/resources/script/modules/genericCollection/utils/genericCollectionUtil.js
+ WebContent/resources/script/genericCollection/views/genericCollection.js → WebContent/resources/script/modules/genericCollection/views/genericCollection.js
+ WebContent/resources/script/modules/genericCollection/views/genericCollectionActionIcons.js
+ WebContent/resources/script/genericCollection/views/genericCollectionActivityLog.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionActivityLog.js
+ WebContent/resources/script/genericCollection/views/genericCollectionAdd.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionAdd.js
+ WebContent/resources/script/genericCollection/views/genericCollectionHome.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionHome.js
+ WebContent/resources/script/genericCollection/views/genericCollectionImport.js → WebContent/resources/script/modules/genericCollection/views/genericCollectionImport.js
+ WebContent/resources/script/modules/genericCollection/views/genericCollectionMetaDetails.js
+ WebContent/resources/script/genericCollection/views/templates/genericCollection.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollection.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActionIcons.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionActionIcons.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionActivityLog.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionActivityLog.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionAdd.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionAdd.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionHome.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionHome.dust
+ WebContent/resources/script/genericCollection/views/templates/genericCollectionImport.dust → WebContent/resources/script/modules/genericCollection/views/templates/genericCollectionImport.dust
+ WebContent/resources/script/modules/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/modules/settings/utils/settingsConfig.js
+ WebContent/resources/script/modules/settings/views/templates/provisioning.dust
+ WebContent/resources/styles/custom/global.less
+ WebContent/resources/styles/lib/plugins/jsonEditor.less
+ WebContent/resources/styles/lib/plugins/quillJs.less
+ WebContent/resources/styles/modules/aps.less
+ WebContent/resources/styles/modules/genericCollection.less
+ src/main/java/com/payoda/appviewx/core/bean/aps/CommandBean.java
+ src/main/java/com/payoda/appviewx/core/constants/AppProvisioningConstants.java
+ src/main/java/com/payoda/appviewx/web/adapter/IAPSRequestAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/APSAccessControlListAdapter.java
+ src/main/java/com/payoda/appviewx/web/adapter/rest/APSRequestAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/APSRequestController.java
+ src/main/java/com/payoda/appviewx/web/controller/GeneralCollectionController.java
+ src/main/java/com/payoda/appviewx/web/controller/HomeController.java
+ src/main/java/com/payoda/appviewx/web/util/GeneralCollectionUtil.java
+ src/main/java/com/payoda/appviewx/web/validator/GeneralCollectionValidator.java
+ src/main/java/com/payoda/commons/core/constants/AppErrorCode.java
+
+
+
+
+ TEST 15/6/17:
+
+  WebContent/locale/nls/en/appProvisioning.js
+ WebContent/locale/nls/fr/appProvisioning.js
+ WebContent/locale/nls/pt/appProvisioning.js
+ WebContent/resources/script/modules/aps/core/apsCoreConfig.js
+ WebContent/resources/script/modules/aps/request/controller/apsRequestInventoryBusinessLogic.js
+ WebContent/resources/script/modules/aps/request/controller/apsWorkOrderBusinessLogic.js
+ WebContent/resources/script/modules/aps/template/controller/apsInventoryBusinessLogic.js
+ WebContent/resources/script/modules/settings/controller/settingsBusinessLogic.js
+ WebContent/resources/script/modules/settings/controller/settingsDomEvents.js
+ WebContent/resources/script/modules/settings/controller/settingsRouteProvider.js
+ WebContent/resources/script/modules/settings/service/settingsDelegate.js
+ WebContent/resources/script/modules/settings/settingsMain.js
+ WebContent/resources/script/modules/settings/utils/settingsConfig.js
+ WebContent/resources/script/modules/settings/utils/settingsUtil.js
+ WebContent/resources/script/modules/settings/views/templates/changemanagement.dust
+ WebContent/resources/script/modules/settings/views/templates/vendorConfigurations.dust
+ src/main/java/com/payoda/appviewx/web/adapter/rest/GeneralCollectionAdapter.java
+ src/main/java/com/payoda/appviewx/web/controller/GeneralCollectionController.java
+ src/main/java/com/payoda/appviewx/web/controller/HomeController.java
