@@ -1,0 +1,17 @@
+[ {
+  "time" : 1596834958274,
+  "message" : "Workflow Created",
+  "priority" : 1,
+  "type" : "Workflow",
+  "user" : "admin",
+  "data" : null,
+  "category" : null,
+  "subCategory" : null,
+  "requestId" : null,
+  "requestType" : null,
+  "workflowName" : "dummel",
+  "workflowVersion" : "master",
+  "name" : null,
+  "referenceId" : null,
+  "_keywords" : null
+} ]
