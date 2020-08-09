@@ -1,0 +1,241 @@
+[ {
+  "workflowName" : "test_dropdown",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : "requestId",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : "scheduledBy",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : "ticketNumber",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "review_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "JCdVb5au",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Postvalidation",
+    "key" : "postvalidation",
+    "value" : "config.postvalidation",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : "requestCreator",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : "requestState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : "taskState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : "workflowName",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Rollback",
+    "key" : "rollback",
+    "value" : "config.rollback",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "test_field",
+    "key" : "test_field",
+    "value" : "test_field",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Populate dropdown",
+    "key" : "populate_dropdown",
+    "value" : "populate_dropdown",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "implementation",
+    "key" : "implementation",
+    "value" : "config.implementation",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : "loggedInUsername",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Prevalidation",
+    "key" : "prevalidation",
+    "value" : "config.prevalidation",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JCdVb5au",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+}, {
+  "workflowName" : "test_dropdown",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : "ticketNumber",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "R0dLIE0B",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : "requestState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "R0dLIE0B",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : "requestId",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "R0dLIE0B",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : "taskState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "R0dLIE0B",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : "scheduledBy",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "R0dLIE0B",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : "workflowName",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "R0dLIE0B",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : "requestCreator",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "R0dLIE0B",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : "loggedInUsername",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "R0dLIE0B",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+} ]
